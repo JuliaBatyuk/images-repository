@@ -1,0 +1,109 @@
+body {
+	background-color: #808080;
+}
+.container {
+	border: 2px solid #7099f7;
+	border-radius: 5px;
+	width: 500px;
+	background-color: white;
+	margin: 20px auto;
+}
+.title {
+	text-align: center;
+	background-color: #7099f7;
+	padding: 10px;
+}
+.title h1 {
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+} 
+.block {
+	width: 90%;
+	padding: 7px 5px;
+	margin: auto;
+}
+.block label {
+	margin-left: 2%;
+	font-weight: bold;
+	color: gray;
+	font-family: "Open Sans", sans-serif;
+}
+.block-field {
+	width: 95%;
+	text-align: center;
+	position: relative;
+}
+.block-field input, 
+textarea {
+	width: 95%;
+	/*margin: 5px auto;*/
+	padding: 10px 10px 10px 30px;
+	margin: 5px auto; 
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: gray;
+	font-family: "Open Sans", sans-serif;
+}
+input:focus, 
+textarea:focus {
+	border: 1px solid red;
+}
+.buttons {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+}
+button {
+	background-color: #7099f7;
+	color: white;
+	padding: 10px;
+	width: 35%;
+	border-radius: 5px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+}
+.block-field i {
+	float: left;
+	position: absolute;
+	top: 17px;
+	left: 10px;
+	padding-right: 15px;
+}
+ form {
+ 	width: 100%;
+ }
+.form {
+	/*display: inline-flex;*/
+	display: inline-block;
+}
+
+.form label {
+	position: relative;
+	top: 35px;
+	left: 5px;
+	width: 30px;
+}
+.form .block-field input {
+	width: 60%;
+}
+.form .block-field {
+	margin-left: 60px;
+}
+.form .block-field i {
+	top: 17px;
+	left: 75px;
+}
+.form textarea {
+	margin-top: 40px;
+	width: 100%;
+	margin-left: -80px;
+}
+.form .fa-solid.fa-pen {
+	top: 50px;
+	left: -50px;
+}
+.form .block {
+	padding: 0;
+}
